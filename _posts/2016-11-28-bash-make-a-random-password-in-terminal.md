@@ -22,39 +22,33 @@ Tulisan ini sebagai pengingat diri untuk membuat password yang kuat dengan menga
 Berikut caranya :
 
 1. Menggukanan kombinasi perintah `echo` , `md5sum` dan `base64`
-```bash
-$ echo "ini text password saya" | md5sum | base64 | head -c10 ; echo
-```
-pada tulisan `ini text password saya`, bisa diubah menjadi kata/kalimat yang mudah diingat oleh anda dan pada `-c10` bisa diubah panjang _password_ nya sesuai keinginan anda
+  ```bash
+  $ echo "ini text password saya" | md5sum | base64 | head -c10 ; echo
+  ```
+  pada tulisan `ini text password saya`, bisa diubah menjadi kata/kalimat yang mudah diingat oleh anda dan pada `-c10` bisa diubah panjang _password_ nya sesuai keinginan anda
 
 2. Menggunakan fitur `/dev/urandom`
 ```bash
 $ < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c10 ;echo; tr -cd '[:alnum:]' &lt; /dev/urandom | fold -w30 | head -n1
 ```
 - pada `-c10` bisa diubah panjang _password_ nya sesuai keinginan anda
-
 - pada `-w30` bisa diubah panjang _password_ nya sesuai keinginan anda
-
 cara lain menggunakan `/dev/urandom`
 ```bash
 $ strings /dev/urandom | grep -o '[[:alnum:]]' | head -n 30 | tr -d '\n'; echo
 ```
 bisa juga yang _simple_ seperti ini
-
 ```bash
 $ < /dev/urandom tr -dc _A-Z-a-z-0-9 | head -c6
 ```
-
-3. Yang ini menggunakan funsi rand pada openssl. yang mungkin tidak terpasang secara bawaan pada sistem operasi anda
+3. Yang ini menggunakan fungsi rand pada openssl. yang mungkin tidak terpasang secara bawaan pada sistem operasi anda
 ```bash
 $ openssl rand -base64 32
 ```
-
 4. Menggunakan `pwgen`
 ```bash
 $ sudo apt-get install pwgen
 $ pwgen
-
 Aica0yei chaeW1ja shoh9uoB ta4phaiZ iePa0ooc etapeeL1 wae4Iung baiH5sai
 timou1Ph ohw2Ahxu aiW1ohfe iemae9Th Vuf1iu7a eipu9ooM ieth1ohR hew9aePh
 yoc2Quee ze7Pei4o Iloo7aeg MooNg5ph Vus4phia gi3uQu3f ue4Aibai Yeinga0i
@@ -75,15 +69,11 @@ ceiLuoz3 nohS9kei Ieph4loh Iemeux5S Cheuf2ee Vieg8ipu quugei3K nau4Chu8
 JeeXie5u fel9Uo1z ooMozuo2 joh1Lae2 Eib8KohX daeyo4Ti Wee1he9S eefe6WaX
 Tiulei6u Phieboh1 duaHae4o eiFag9io ooZe9eix aesh3Jie ooca5ieB iYooxah2
 Noofo6sh eiph8Ech oequ8Oj7 phijaeC4 boh9Ohhi aip9ooNa ei8Eiy1l gahbei3P
-
 ```
-
 5. Menggunakan `makepasswd`
-
 ```bash
 $ sudo apt-get install makepasswd
 $ makepasswd --count 5 --chars 32
-
 FMPp05phTpVrm80Cexa0Jv1UDvXwU5Sr
 UD8J8EL7UgUCCmIjL6IqGN2ImnGebDjR
 aRGnbhfdIi5YAwqnb1nnAJ4x1C3b48PL
