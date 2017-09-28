@@ -1,3 +1,4 @@
+---
 title: 'openSUSE re-install Grub2 from CD Rescue'
 date: 2017-09-28T23:46:52+00:00
 author: winardiaris
