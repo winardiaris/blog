@@ -3,11 +3,9 @@ title: 'openSUSE re-install Grub2 from CD Rescue'
 date: 2017-09-28T23:46:52+00:00
 author: winardiaris
 layout: post
+permalink: /opensuse-reinstall-grub2-from-cd-rescue/
+image: http://www.sisidunia.com/wp-content/uploads/2015/12/yuki.jpg
 categories:
-  - Catatan
-  - Catetan
-  - openSUSE
-tags:
   - Catatan
   - Catetan
   - openSUSE
