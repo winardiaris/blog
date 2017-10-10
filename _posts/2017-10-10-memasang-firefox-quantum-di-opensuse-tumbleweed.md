@@ -13,7 +13,7 @@ categories:
 
 Kunjungi halaman [https://www.mozilla.org/id/firefox/channel/desktop/#beta](https://www.mozilla.org/id/firefox/channel/desktop/#beta) klik tombol unduh Firefox Beta
 
-![Unduh](images/firefox-beta-download.png "Unduh")
+![Unduh](https://github.com/winardiaris/blog/raw/master/images/firefox-beta-download.png "Unduh")
 
 Ekstrak hasil unduhan dengan cara:
 ```bash
