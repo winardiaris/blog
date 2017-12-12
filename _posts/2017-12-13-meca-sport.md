@@ -1,5 +1,5 @@
 ---
-title: 'Memasang Firefox Quantum di openSUSE Tumbleweed'
+title: 'Meca Sport'
 date: 2017-12-13T01:11:52+00:00
 author: winardiaris
 layout: post
