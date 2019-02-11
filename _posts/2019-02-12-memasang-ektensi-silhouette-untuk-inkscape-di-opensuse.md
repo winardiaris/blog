@@ -29,11 +29,11 @@ tags:
 Akhir-akhir ini saya sedang tertarik pada _cutting machine_ dan kebetulan salah satu teman memilikinya.
 
 
-Perangkat tersebut bermerk "**_Silhouette Potrait_**" yang membutuhkan aplikasi Silhouette Studio (https://www.silhouetteamerica.com/software) untuk mengoperasikannya yang notabennya berjalan pada sistem operasi Windows dan Mac OSX
+Perangkat tersebut bermerk "**_Silhouette Potrait_**" yang membutuhkan aplikasi Silhouette Studio [https://www.silhouetteamerica.com/software](https://www.silhouetteamerica.com/software) untuk mengoperasikannya yang notabennya berjalan pada sistem operasi Windows dan Mac OSX
 
 Beberapa hari saya mencoba aplikasi tersebut namun tidak mudah memahaminya, karena saya  terbiasa dengan Inkscape. 
 
-Selepas jam kerja saya berselancar mencari padanan aplikasi Silhouette Studio untuk distro openSUSE. Dan menemukan tautan https://github.com/fablabnbg/inkscape-silhouette sebuah ekstensi inkscape untuk mengoperasikan perangkat Silhouette. 
+Selepas jam kerja saya berselancar mencari padanan aplikasi Silhouette Studio untuk distro openSUSE. Dan menemukan tautan [https://github.com/fablabnbg/inkscape-silhouette](https://github.com/fablabnbg/inkscape-silhouette) sebuah ekstensi inkscape untuk mengoperasikan perangkat Silhouette. 
 
 
 Berikut cara memasang extensi tersebut pada openSUSE:
