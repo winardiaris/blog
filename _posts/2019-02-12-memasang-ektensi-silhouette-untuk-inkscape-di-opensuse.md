@@ -81,9 +81,11 @@ Hidupkan dan hubungkan perangkat pada komputer lalu buka aplikasi inkscape, buat
 
 Setelah gambar siap di cetak klik **Extensions > Export > Send to Silhouette** dan tentukan jenis **Tools**, jenis **Media**, **Kecepatan** dan **Tekanan** sesuai kebutuhan anda. Klik **_Apply_** untuk mengirim ke perangkat silhouette.
 
+## YouTube
+[![YouTube](https://github.com/winardiaris/blog/raw/master/images/hasil.jpg)](https://youtu.be/6y0hlDQRbd4)
 
 
-Bonus 
+## Bonus 
 template inkscape untuk alas bawaan dari Silhouette Potrait ukuran kertas A4 ([link](https://github.com/winardiaris/blog/raw/master/images/template.svg))
 
 
